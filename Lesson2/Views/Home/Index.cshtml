@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using Lesson2.Helpers;
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<body>
+    <div id="header" class="container-fluid col-sm-10 col-sm-offset-1">
+        <div class="row">
+            <img src="~/Content/Images/1505_1440648854.png" id="headImg" alt="Anchor" width="10%" height="10%"/>
+            <h1 id="title">quamarine</h1>
+        </div>
+    </div>
+
+    <div id="main" class="col-sm-offset-1 col-sm-10">
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                <h4>My Blog</h4>
+                @{ 
+                    string[] content = new string[] { "Registration", "Home", "Guest", "Photos" };
+                }
+                @Html.CreateList(content)<br>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Blog..">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-sm-9" id="form">
+                <h2>Enter your credentials</h2>
+                <form role="form" method="post" action="/Home/Registration">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" class="form-control" id="age" placeholder="Enter your current age" name="age">
+                    </div>
+                    <label for="gender">Choose your gender:   </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender" value="man"/>Man
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender" value="woman"/>Woman
+                    </label>
+                    <div class="form-group">
+                        <label for="telephone">Telephone:</label>
+                        <input type="tel" class="form-control" id="telephone" placeholder="Enter telephone" name="telephone">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="notification">Notification (select one):</label>
+                        <select class="form-control" id="notification" name="notification">
+                            <option value="sms">Via SMS</option>
+                            <option value="email">Via Email</option>
+                            <option value="facebook">Via facebook notification</option>
+                            <option value="telephone">Via telephone call</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Reenter the password" name="pwd">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="remember"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer col-sm-10">
+        <div class="container">
+            <div class="row" id="social">
+                <ul class="social">
+                    <li> <a href="#"> <i class="fa fa-facebook">   </i> </a> </li>
+                    <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                    <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                    <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                    <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom col-sm-10 col-sm-offset-1">
+        <div class="container">
+            <p class="pull-left"> Copyright © Tkachenko Yevgeniy. All right reserved. </p>
+        </div>
+    </div>
+    <a href="#" class="scrollup">Scroll</a>
+    <script src="~/Scripts/Brains.js"></script>
+</body>

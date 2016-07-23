@@ -1,0 +1,18 @@
+﻿body {
+    background-image: url(Images/scuba-diver-569333_1920.jpg);
+    font-family: Bitter;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,small{
+    color: white
+}
+
+#title{
+    font-size: 3vw;
+    letter-spacing: 4vw;
+    text-transform: uppercase;
+    line-height: 5vw;
+    margin-left: 14.5vw;
+}
+
+

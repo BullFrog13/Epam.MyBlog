@@ -1,0 +1,139 @@
+﻿body{
+    background-image: url(Images/sailing-boat-569336_1920.jpg);
+}
+#header{
+    font-family: Bitter;
+    height: 125px;  
+}
+
+#section1 {color: #fff; background-color: #1E88E5;}
+
+.content{
+    font-family: Bitter
+}
+
+#form{
+    margin-top: -1%;
+}
+
+#social{
+    margin-left: 36vw;
+}
+
+.footer {
+	background:none;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+    padding: 15px;
+}
+.footer p {
+	margin: 0;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	color: #7F8C8D;
+}
+.social li {
+	background: none repeat scroll 0 0 #4484bb;
+	border: 2px solid #4484bb;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+.footer-bottom {
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 670px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color:none;
+      height: 100%;
+      opacity: 0.9;
+    }   
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;}
+    }
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background-image: url(Images/anchor-310845_640.png);
+    background-size: 40px, 40px;
+}
+
+@media screen and (max-width: 2000px){
+    .pull-left{
+        margin-left: -10%;
+    }
+}
+
+#title{
+    font-size: 3vw; 
+    letter-spacing: 6vw; 
+    text-transform:uppercase; 
+    line-height: 5vw; 
+    margin-left: 3.5vw; 
+    margin-left: 15%
+}
+
+#headImg{
+    float: left; margin-left: 3%; margin-top: 0.2vw
+}
+
+#main{
+    margin-top: 1%;
+}

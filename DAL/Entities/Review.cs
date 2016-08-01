@@ -1,12 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace DAL
 {
-    class Review
+    public class Review
     {
+        [Required]
+        public int ID { get; set; }
+
+        [Required]
+        public string Author { get; set; }
+
+        [Required]
+        public string Text { get; set; }
+
+        [Required]
+        public DateTime Date { get; set; }
     }
 }

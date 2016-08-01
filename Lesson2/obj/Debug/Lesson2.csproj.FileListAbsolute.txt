@@ -51,3 +51,9 @@ D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\bin\Newtonsoft.Json.xml
 D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\obj\Debug\Lesson2.csprojResolveAssemblyReference.cache
 D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\obj\Debug\Lesson2.dll
 D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\obj\Debug\Lesson2.pdb
+D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\bin\EntityFramework.dll
+D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\bin\EntityFramework.SqlServer.dll
+D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\bin\EntityFramework.xml
+D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\bin\EntityFramework.SqlServer.xml
+D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\bin\DAL.dll
+D:\EPAM_ASP.NET_MVC_5\Lesson2\Lesson2\bin\DAL.pdb

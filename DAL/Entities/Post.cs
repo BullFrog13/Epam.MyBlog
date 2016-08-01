@@ -1,19 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace DAL
 {
-    class Post
+    public class Post
     {
+        [Required]
         public int ID { get; set; }
 
+        [Required]
         public string Author { get; set; }
 
+        [Required]
+        public string Title { get; set; }
+
+        [Required]
         public string Text { get; set; }
 
-        public DateTime Date {get;set;}
+        public virtual ICollection<Tag> Tags { get; set; }
+
+        [Required]
+        public DateTime Date { get; set; }
     }
 }

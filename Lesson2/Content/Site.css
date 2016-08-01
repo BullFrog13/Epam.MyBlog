@@ -1,5 +1,8 @@
 ﻿body{
     background-image: url(Images/sailing-boat-569336_1920.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
 }
 #header{
     font-family: Bitter;

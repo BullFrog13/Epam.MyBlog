@@ -1,0 +1,10 @@
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\bin\Debug\DAL.dll.config
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\bin\Debug\DAL.dll
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\bin\Debug\DAL.pdb
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\bin\Debug\EntityFramework.dll
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\bin\Debug\EntityFramework.xml
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\obj\Debug\DAL.dll
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\obj\Debug\DAL.pdb
+D:\EPAM_ASP.NET_MVC_5\Lesson2\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

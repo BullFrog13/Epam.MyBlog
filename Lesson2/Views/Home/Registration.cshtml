@@ -1,4 +1,6 @@
-﻿@{
+﻿@using DAL
+@model Account
+@{
     Layout = null;
 }
 
@@ -12,14 +14,13 @@
 </head>
 <body>
     <div>
-        <p>Name: @ViewBag.Name</p>
-        <p>Age: @ViewBag.Age</p>
-        <p>Gender: @ViewBag.Gender</p>
-        <p>Email: @ViewBag.Email</p>
-        <p>Telephone: @ViewBag.Telephone</p>
-        <p>Note via: @ViewBag.Notification</p>
-        <p>Password: @ViewBag.Password</p>
-        <p>Remember account: @ViewBag.Remeber</p>
+        <p>Name: @Model.Name</p>
+        <p>Age: @Model.Age</p>
+        <p>Gender: @Model.Gender</p>
+        <p>Email: @Model.Email</p>
+        <p>Telephone: @Model.Telephone</p>
+        <p>Note via: @Model.Notification</p>
+        <p>Password: @Model.Password</p>
         
         <form role="form" action="/Home/HomePage">
             <button type="submit" class="btn btn-default">To home page</button>
